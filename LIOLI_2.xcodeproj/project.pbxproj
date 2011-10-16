@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64B6A82E144B94E3000E540B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A82D144B94E3000E540B /* UIKit.framework */; };
+		64B6A830144B94E3000E540B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A82F144B94E3000E540B /* Foundation.framework */; };
+		64B6A832144B94E3000E540B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A831144B94E3000E540B /* CoreGraphics.framework */; };
+		64B6A838144B94E3000E540B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A836144B94E3000E540B /* InfoPlist.strings */; };
+		64B6A83A144B94E3000E540B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A839144B94E3000E540B /* main.m */; };
+		64B6A83E144B94E3000E540B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A83D144B94E3000E540B /* AppDelegate.m */; };
+		64B6A841144B94E3000E540B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A83F144B94E3000E540B /* MainStoryboard.storyboard */; };
+		64B6A844144B94E3000E540B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A843144B94E3000E540B /* FirstViewController.m */; };
+		64B6A846144B94E3000E540B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A845144B94E3000E540B /* first.png */; };
+		64B6A848144B94E3000E540B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A847144B94E3000E540B /* first@2x.png */; };
+		64B6A84B144B94E3000E540B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A84A144B94E3000E540B /* SecondViewController.m */; };
+		64B6A84D144B94E3000E540B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A84C144B94E3000E540B /* second.png */; };
+		64B6A84F144B94E3000E540B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A84E144B94E3000E540B /* second@2x.png */; };
+		64B6A857144B94E3000E540B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A856144B94E3000E540B /* SenTestingKit.framework */; };
+		64B6A858144B94E3000E540B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A82D144B94E3000E540B /* UIKit.framework */; };
+		64B6A859144B94E3000E540B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A82F144B94E3000E540B /* Foundation.framework */; };
+		64B6A861144B94E3000E540B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A85F144B94E3000E540B /* InfoPlist.strings */; };
+		64B6A864144B94E3000E540B /* LIOLI_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A863144B94E3000E540B /* LIOLI_2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64B6A85A144B94E3000E540B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64B6A820144B94E1000E540B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B6A828144B94E2000E540B;
+			remoteInfo = LIOLI_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64B6A829144B94E2000E540B /* LIOLI_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIOLI_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B6A82D144B94E3000E540B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64B6A82F144B94E3000E540B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64B6A831144B94E3000E540B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64B6A835144B94E3000E540B /* LIOLI_2-Info.plist */ = {isa = PBXFileReference; path = "LIOLI_2-Info.plist"; sourceTree = "<group>"; };
+		64B6A837144B94E3000E540B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64B6A839144B94E3000E540B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64B6A83B144B94E3000E540B /* LIOLI_2-Prefix.pch */ = {isa = PBXFileReference; path = "LIOLI_2-Prefix.pch"; sourceTree = "<group>"; };
+		64B6A83C144B94E3000E540B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		64B6A83D144B94E3000E540B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64B6A840144B94E3000E540B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		64B6A842144B94E3000E540B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		64B6A843144B94E3000E540B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		64B6A845144B94E3000E540B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		64B6A847144B94E3000E540B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		64B6A849144B94E3000E540B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		64B6A84A144B94E3000E540B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		64B6A84C144B94E3000E540B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		64B6A84E144B94E3000E540B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		64B6A855144B94E3000E540B /* LIOLI_2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIOLI_2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B6A856144B94E3000E540B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64B6A85E144B94E3000E540B /* LIOLI_2Tests-Info.plist */ = {isa = PBXFileReference; path = "LIOLI_2Tests-Info.plist"; sourceTree = "<group>"; };
+		64B6A860144B94E3000E540B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64B6A862144B94E3000E540B /* LIOLI_2Tests.h */ = {isa = PBXFileReference; path = LIOLI_2Tests.h; sourceTree = "<group>"; };
+		64B6A863144B94E3000E540B /* LIOLI_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIOLI_2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64B6A826144B94E2000E540B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B6A82E144B94E3000E540B /* UIKit.framework in Frameworks */,
+				64B6A830144B94E3000E540B /* Foundation.framework in Frameworks */,
+				64B6A832144B94E3000E540B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B6A851144B94E3000E540B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B6A857144B94E3000E540B /* SenTestingKit.framework in Frameworks */,
+				64B6A858144B94E3000E540B /* UIKit.framework in Frameworks */,
+				64B6A859144B94E3000E540B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64B6A81E144B94E1000E540B = {
+			isa = PBXGroup;
+			children = (
+				64B6A833144B94E3000E540B /* LIOLI_2 */,
+				64B6A85C144B94E3000E540B /* LIOLI_2Tests */,
+				64B6A82C144B94E2000E540B /* Frameworks */,
+				64B6A82A144B94E2000E540B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64B6A82A144B94E2000E540B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64B6A829144B94E2000E540B /* LIOLI_2.app */,
+				64B6A855144B94E3000E540B /* LIOLI_2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64B6A82C144B94E2000E540B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B6A82D144B94E3000E540B /* UIKit.framework */,
+				64B6A82F144B94E3000E540B /* Foundation.framework */,
+				64B6A831144B94E3000E540B /* CoreGraphics.framework */,
+				64B6A856144B94E3000E540B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64B6A833144B94E3000E540B /* LIOLI_2 */ = {
+			isa = PBXGroup;
+			children = (
+				64B6A83C144B94E3000E540B /* AppDelegate.h */,
+				64B6A83D144B94E3000E540B /* AppDelegate.m */,
+				64B6A83F144B94E3000E540B /* MainStoryboard.storyboard */,
+				64B6A842144B94E3000E540B /* FirstViewController.h */,
+				64B6A843144B94E3000E540B /* FirstViewController.m */,
+				64B6A845144B94E3000E540B /* first.png */,
+				64B6A847144B94E3000E540B /* first@2x.png */,
+				64B6A849144B94E3000E540B /* SecondViewController.h */,
+				64B6A84A144B94E3000E540B /* SecondViewController.m */,
+				64B6A84C144B94E3000E540B /* second.png */,
+				64B6A84E144B94E3000E540B /* second@2x.png */,
+				64B6A834144B94E3000E540B /* Supporting Files */,
+			);
+			path = LIOLI_2;
+			sourceTree = "<group>";
+		};
+		64B6A834144B94E3000E540B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B6A835144B94E3000E540B /* LIOLI_2-Info.plist */,
+				64B6A836144B94E3000E540B /* InfoPlist.strings */,
+				64B6A839144B94E3000E540B /* main.m */,
+				64B6A83B144B94E3000E540B /* LIOLI_2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64B6A85C144B94E3000E540B /* LIOLI_2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				64B6A862144B94E3000E540B /* LIOLI_2Tests.h */,
+				64B6A863144B94E3000E540B /* LIOLI_2Tests.m */,
+				64B6A85D144B94E3000E540B /* Supporting Files */,
+			);
+			path = LIOLI_2Tests;
+			sourceTree = "<group>";
+		};
+		64B6A85D144B94E3000E540B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B6A85E144B94E3000E540B /* LIOLI_2Tests-Info.plist */,
+				64B6A85F144B94E3000E540B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64B6A828144B94E2000E540B /* LIOLI_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B6A867144B94E3000E540B /* Build configuration list for PBXNativeTarget "LIOLI_2" */;
+			buildPhases = (
+				64B6A825144B94E2000E540B /* Sources */,
+				64B6A826144B94E2000E540B /* Frameworks */,
+				64B6A827144B94E2000E540B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LIOLI_2;
+			productName = LIOLI_2;
+			productReference = 64B6A829144B94E2000E540B /* LIOLI_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64B6A854144B94E3000E540B /* LIOLI_2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B6A86A144B94E3000E540B /* Build configuration list for PBXNativeTarget "LIOLI_2Tests" */;
+			buildPhases = (
+				64B6A850144B94E3000E540B /* Sources */,
+				64B6A851144B94E3000E540B /* Frameworks */,
+				64B6A852144B94E3000E540B /* Resources */,
+				64B6A853144B94E3000E540B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64B6A85B144B94E3000E540B /* PBXTargetDependency */,
+			);
+			name = LIOLI_2Tests;
+			productName = LIOLI_2Tests;
+			productReference = 64B6A855144B94E3000E540B /* LIOLI_2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64B6A820144B94E1000E540B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Raymond Elward";
+			};
+			buildConfigurationList = 64B6A823144B94E1000E540B /* Build configuration list for PBXProject "LIOLI_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64B6A81E144B94E1000E540B;
+			productRefGroup = 64B6A82A144B94E2000E540B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64B6A828144B94E2000E540B /* LIOLI_2 */,
+				64B6A854144B94E3000E540B /* LIOLI_2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64B6A827144B94E2000E540B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B6A838144B94E3000E540B /* InfoPlist.strings in Resources */,
+				64B6A841144B94E3000E540B /* MainStoryboard.storyboard in Resources */,
+				64B6A846144B94E3000E540B /* first.png in Resources */,
+				64B6A848144B94E3000E540B /* first@2x.png in Resources */,
+				64B6A84D144B94E3000E540B /* second.png in Resources */,
+				64B6A84F144B94E3000E540B /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B6A852144B94E3000E540B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B6A861144B94E3000E540B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64B6A853144B94E3000E540B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64B6A825144B94E2000E540B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B6A83A144B94E3000E540B /* main.m in Sources */,
+				64B6A83E144B94E3000E540B /* AppDelegate.m in Sources */,
+				64B6A844144B94E3000E540B /* FirstViewController.m in Sources */,
+				64B6A84B144B94E3000E540B /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B6A850144B94E3000E540B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B6A864144B94E3000E540B /* LIOLI_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64B6A85B144B94E3000E540B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B6A828144B94E2000E540B /* LIOLI_2 */;
+			targetProxy = 64B6A85A144B94E3000E540B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64B6A836144B94E3000E540B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B6A837144B94E3000E540B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64B6A83F144B94E3000E540B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B6A840144B94E3000E540B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		64B6A85F144B94E3000E540B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B6A860144B94E3000E540B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64B6A865144B94E3000E540B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64B6A866144B94E3000E540B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64B6A868144B94E3000E540B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LIOLI_2/LIOLI_2-Prefix.pch";
+				INFOPLIST_FILE = "LIOLI_2/LIOLI_2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64B6A869144B94E3000E540B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LIOLI_2/LIOLI_2-Prefix.pch";
+				INFOPLIST_FILE = "LIOLI_2/LIOLI_2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64B6A86B144B94E3000E540B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LIOLI_2.app/LIOLI_2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LIOLI_2/LIOLI_2-Prefix.pch";
+				INFOPLIST_FILE = "LIOLI_2Tests/LIOLI_2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		64B6A86C144B94E3000E540B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LIOLI_2.app/LIOLI_2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LIOLI_2/LIOLI_2-Prefix.pch";
+				INFOPLIST_FILE = "LIOLI_2Tests/LIOLI_2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64B6A823144B94E1000E540B /* Build configuration list for PBXProject "LIOLI_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B6A865144B94E3000E540B /* Debug */,
+				64B6A866144B94E3000E540B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B6A867144B94E3000E540B /* Build configuration list for PBXNativeTarget "LIOLI_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B6A868144B94E3000E540B /* Debug */,
+				64B6A869144B94E3000E540B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64B6A86A144B94E3000E540B /* Build configuration list for PBXNativeTarget "LIOLI_2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B6A86B144B94E3000E540B /* Debug */,
+				64B6A86C144B94E3000E540B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64B6A820144B94E1000E540B /* Project object */;
+}
