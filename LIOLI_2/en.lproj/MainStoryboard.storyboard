@@ -33,7 +33,7 @@
                     <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="252" y="-368"/>
+            <point key="canvasLocation" x="132" y="-414"/>
         </scene>
         <scene sceneID="PFE-fS-ftF">
             <objects>
@@ -57,7 +57,7 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="672" y="191"/>
+            <point key="canvasLocation" x="620" y="180"/>
         </scene>
         <scene sceneID="13">
             <objects>
@@ -87,7 +87,7 @@
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="6"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="688" y="-368"/>
+            <point key="canvasLocation" x="620" y="-414"/>
         </scene>
         <scene sceneID="15">
             <objects>
