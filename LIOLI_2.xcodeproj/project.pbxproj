@@ -42,26 +42,26 @@
 		64B6A82D144B94E3000E540B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64B6A82F144B94E3000E540B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64B6A831144B94E3000E540B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		64B6A835144B94E3000E540B /* LIOLI_2-Info.plist */ = {isa = PBXFileReference; path = "LIOLI_2-Info.plist"; sourceTree = "<group>"; };
+		64B6A835144B94E3000E540B /* LIOLI_2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LIOLI_2-Info.plist"; sourceTree = "<group>"; };
 		64B6A837144B94E3000E540B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64B6A839144B94E3000E540B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		64B6A83B144B94E3000E540B /* LIOLI_2-Prefix.pch */ = {isa = PBXFileReference; path = "LIOLI_2-Prefix.pch"; sourceTree = "<group>"; };
-		64B6A83C144B94E3000E540B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		64B6A83B144B94E3000E540B /* LIOLI_2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LIOLI_2-Prefix.pch"; sourceTree = "<group>"; };
+		64B6A83C144B94E3000E540B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64B6A83D144B94E3000E540B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		64B6A840144B94E3000E540B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		64B6A842144B94E3000E540B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		64B6A842144B94E3000E540B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		64B6A843144B94E3000E540B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		64B6A845144B94E3000E540B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		64B6A847144B94E3000E540B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		64B6A849144B94E3000E540B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		64B6A849144B94E3000E540B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		64B6A84A144B94E3000E540B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		64B6A84C144B94E3000E540B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		64B6A84E144B94E3000E540B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		64B6A855144B94E3000E540B /* LIOLI_2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIOLI_2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B6A856144B94E3000E540B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		64B6A85E144B94E3000E540B /* LIOLI_2Tests-Info.plist */ = {isa = PBXFileReference; path = "LIOLI_2Tests-Info.plist"; sourceTree = "<group>"; };
+		64B6A85E144B94E3000E540B /* LIOLI_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LIOLI_2Tests-Info.plist"; sourceTree = "<group>"; };
 		64B6A860144B94E3000E540B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		64B6A862144B94E3000E540B /* LIOLI_2Tests.h */ = {isa = PBXFileReference; path = LIOLI_2Tests.h; sourceTree = "<group>"; };
+		64B6A862144B94E3000E540B /* LIOLI_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIOLI_2Tests.h; sourceTree = "<group>"; };
 		64B6A863144B94E3000E540B /* LIOLI_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIOLI_2Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
