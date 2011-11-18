@@ -17,7 +17,8 @@
 
 
 
-+(NSArray *)getRecentTen;
+
++(NSArray *)getRecentTen:(NSNumber *)page;
 +(NSArray *)getRandomTen;
 +(NSNumber *)sendPost:(NSDictionary *)story;
 +(bool)addLoves:(NSNumber *)uniqueId;
