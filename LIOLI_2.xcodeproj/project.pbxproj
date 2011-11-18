@@ -14,10 +14,10 @@
 		64B6A83A144B94E3000E540B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A839144B94E3000E540B /* main.m */; };
 		64B6A83E144B94E3000E540B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A83D144B94E3000E540B /* AppDelegate.m */; };
 		64B6A841144B94E3000E540B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A83F144B94E3000E540B /* MainStoryboard.storyboard */; };
-		64B6A844144B94E3000E540B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A843144B94E3000E540B /* FirstViewController.m */; };
+		64B6A844144B94E3000E540B /* RecentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A843144B94E3000E540B /* RecentsViewController.m */; };
 		64B6A846144B94E3000E540B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A845144B94E3000E540B /* first.png */; };
 		64B6A848144B94E3000E540B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A847144B94E3000E540B /* first@2x.png */; };
-		64B6A84B144B94E3000E540B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A84A144B94E3000E540B /* SecondViewController.m */; };
+		64B6A84B144B94E3000E540B /* RandomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A84A144B94E3000E540B /* RandomViewController.m */; };
 		64B6A84D144B94E3000E540B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A84C144B94E3000E540B /* second.png */; };
 		64B6A84F144B94E3000E540B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A84E144B94E3000E540B /* second@2x.png */; };
 		64B6A857144B94E3000E540B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A856144B94E3000E540B /* SenTestingKit.framework */; };
@@ -25,7 +25,11 @@
 		64B6A859144B94E3000E540B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A82F144B94E3000E540B /* Foundation.framework */; };
 		64B6A861144B94E3000E540B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A85F144B94E3000E540B /* InfoPlist.strings */; };
 		64B6A864144B94E3000E540B /* LIOLI_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A863144B94E3000E540B /* LIOLI_2Tests.m */; };
-		64B6A86E144B9B89000E540B /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A86D144B9B88000E540B /* README.txt */; };
+		64B6A86E144B9B89000E540B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A86D144B9B88000E540B /* README.md */; };
+		64D0787F1476EC0E00646152 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D0787E1476EC0E00646152 /* SearchViewController.m */; };
+		64D078821476EC2D00646152 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D078811476EC2D00646152 /* SubmitViewController.m */; };
+		64D078851476EC4000646152 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D078841476EC4000646152 /* AboutViewController.m */; };
+		64D0788D1476F34D00646152 /* lioliHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D0788C1476F34D00646152 /* lioliHelper.m */; };
 		64FC94F614579FC700EB5083 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FC94F514579FC700EB5083 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,12 +55,12 @@
 		64B6A83C144B94E3000E540B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64B6A83D144B94E3000E540B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		64B6A840144B94E3000E540B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		64B6A842144B94E3000E540B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		64B6A843144B94E3000E540B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		64B6A842144B94E3000E540B /* RecentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecentsViewController.h; sourceTree = "<group>"; };
+		64B6A843144B94E3000E540B /* RecentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecentsViewController.m; sourceTree = "<group>"; };
 		64B6A845144B94E3000E540B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		64B6A847144B94E3000E540B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		64B6A849144B94E3000E540B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		64B6A84A144B94E3000E540B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		64B6A849144B94E3000E540B /* RandomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomViewController.h; sourceTree = "<group>"; };
+		64B6A84A144B94E3000E540B /* RandomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomViewController.m; sourceTree = "<group>"; };
 		64B6A84C144B94E3000E540B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		64B6A84E144B94E3000E540B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		64B6A855144B94E3000E540B /* LIOLI_2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIOLI_2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +69,15 @@
 		64B6A860144B94E3000E540B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64B6A862144B94E3000E540B /* LIOLI_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIOLI_2Tests.h; sourceTree = "<group>"; };
 		64B6A863144B94E3000E540B /* LIOLI_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIOLI_2Tests.m; sourceTree = "<group>"; };
-		64B6A86D144B9B88000E540B /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = SOURCE_ROOT; };
+		64B6A86D144B9B88000E540B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		64D0787D1476EC0E00646152 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		64D0787E1476EC0E00646152 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		64D078801476EC2D00646152 /* SubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitViewController.h; sourceTree = "<group>"; };
+		64D078811476EC2D00646152 /* SubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitViewController.m; sourceTree = "<group>"; };
+		64D078831476EC4000646152 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		64D078841476EC4000646152 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		64D0788B1476F34D00646152 /* lioliHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lioliHelper.h; sourceTree = "<group>"; };
+		64D0788C1476F34D00646152 /* lioliHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lioliHelper.m; sourceTree = "<group>"; };
 		64FC94F514579FC700EB5083 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -128,13 +140,14 @@
 		64B6A833144B94E3000E540B /* LIOLI_2 */ = {
 			isa = PBXGroup;
 			children = (
+				64D078861476EF0B00646152 /* JSON parsing */,
 				64FC94F414579F8B00EB5083 /* ViewControllers */,
 				64FC94F214579F7100EB5083 /* images */,
 				64B6A83C144B94E3000E540B /* AppDelegate.h */,
 				64B6A83D144B94E3000E540B /* AppDelegate.m */,
 				64B6A83F144B94E3000E540B /* MainStoryboard.storyboard */,
 				64B6A834144B94E3000E540B /* Supporting Files */,
-				64B6A86D144B9B88000E540B /* README.txt */,
+				64B6A86D144B9B88000E540B /* README.md */,
 			);
 			path = LIOLI_2;
 			sourceTree = "<group>";
@@ -169,6 +182,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		64D078861476EF0B00646152 /* JSON parsing */ = {
+			isa = PBXGroup;
+			children = (
+				64D0788B1476F34D00646152 /* lioliHelper.h */,
+				64D0788C1476F34D00646152 /* lioliHelper.m */,
+			);
+			name = "JSON parsing";
+			sourceTree = "<group>";
+		};
 		64FC94F214579F7100EB5083 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,10 +202,16 @@
 		64FC94F414579F8B00EB5083 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				64B6A842144B94E3000E540B /* FirstViewController.h */,
-				64B6A843144B94E3000E540B /* FirstViewController.m */,
-				64B6A849144B94E3000E540B /* SecondViewController.h */,
-				64B6A84A144B94E3000E540B /* SecondViewController.m */,
+				64B6A842144B94E3000E540B /* RecentsViewController.h */,
+				64B6A843144B94E3000E540B /* RecentsViewController.m */,
+				64B6A849144B94E3000E540B /* RandomViewController.h */,
+				64B6A84A144B94E3000E540B /* RandomViewController.m */,
+				64D0787D1476EC0E00646152 /* SearchViewController.h */,
+				64D0787E1476EC0E00646152 /* SearchViewController.m */,
+				64D078801476EC2D00646152 /* SubmitViewController.h */,
+				64D078811476EC2D00646152 /* SubmitViewController.m */,
+				64D078831476EC4000646152 /* AboutViewController.h */,
+				64D078841476EC4000646152 /* AboutViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -276,7 +304,7 @@
 				64B6A848144B94E3000E540B /* first@2x.png in Resources */,
 				64B6A84D144B94E3000E540B /* second.png in Resources */,
 				64B6A84F144B94E3000E540B /* second@2x.png in Resources */,
-				64B6A86E144B9B89000E540B /* README.txt in Resources */,
+				64B6A86E144B9B89000E540B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,8 +341,12 @@
 			files = (
 				64B6A83A144B94E3000E540B /* main.m in Sources */,
 				64B6A83E144B94E3000E540B /* AppDelegate.m in Sources */,
-				64B6A844144B94E3000E540B /* FirstViewController.m in Sources */,
-				64B6A84B144B94E3000E540B /* SecondViewController.m in Sources */,
+				64B6A844144B94E3000E540B /* RecentsViewController.m in Sources */,
+				64B6A84B144B94E3000E540B /* RandomViewController.m in Sources */,
+				64D0787F1476EC0E00646152 /* SearchViewController.m in Sources */,
+				64D078821476EC2D00646152 /* SubmitViewController.m in Sources */,
+				64D078851476EC4000646152 /* AboutViewController.m in Sources */,
+				64D0788D1476F34D00646152 /* lioliHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
