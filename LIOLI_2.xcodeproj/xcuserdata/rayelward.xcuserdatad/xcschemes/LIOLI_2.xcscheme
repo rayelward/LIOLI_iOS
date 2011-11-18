@@ -15,7 +15,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "64B6A828144B94E2000E540B"
                BuildableName = "LIOLI_2.app"
-               BlueprintName = "LIOLI_2"
+               BlueprintName = "lioli"
                ReferencedContainer = "container:LIOLI_2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,7 +43,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64B6A828144B94E2000E540B"
             BuildableName = "LIOLI_2.app"
-            BlueprintName = "LIOLI_2"
+            BlueprintName = "lioli"
             ReferencedContainer = "container:LIOLI_2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,7 +61,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64B6A828144B94E2000E540B"
             BuildableName = "LIOLI_2.app"
-            BlueprintName = "LIOLI_2"
+            BlueprintName = "lioli"
             ReferencedContainer = "container:LIOLI_2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,7 +79,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64B6A828144B94E2000E540B"
             BuildableName = "LIOLI_2.app"
-            BlueprintName = "LIOLI_2"
+            BlueprintName = "lioli"
             ReferencedContainer = "container:LIOLI_2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
