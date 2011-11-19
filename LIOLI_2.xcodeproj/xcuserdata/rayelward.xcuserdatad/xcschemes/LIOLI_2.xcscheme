@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "64B6A828144B94E2000E540B"
-               BuildableName = "LIOLI_2.app"
+               BuildableName = "lioli.app"
                BlueprintName = "lioli"
                ReferencedContainer = "container:LIOLI_2.xcodeproj">
             </BuildableReference>
@@ -22,8 +22,8 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
@@ -42,15 +42,15 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64B6A828144B94E2000E540B"
-            BuildableName = "LIOLI_2.app"
+            BuildableName = "lioli.app"
             BlueprintName = "lioli"
             ReferencedContainer = "container:LIOLI_2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64B6A828144B94E2000E540B"
-            BuildableName = "LIOLI_2.app"
+            BuildableName = "lioli.app"
             BlueprintName = "lioli"
             ReferencedContainer = "container:LIOLI_2.xcodeproj">
          </BuildableReference>
@@ -78,7 +78,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64B6A828144B94E2000E540B"
-            BuildableName = "LIOLI_2.app"
+            BuildableName = "lioli.app"
             BlueprintName = "lioli"
             ReferencedContainer = "container:LIOLI_2.xcodeproj">
          </BuildableReference>

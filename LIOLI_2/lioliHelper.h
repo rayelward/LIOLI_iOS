@@ -5,7 +5,7 @@
 //  Created by Raymond Elward on 11/18/11.
 //  Copyright (c) 2011 Raymond Elward. All rights reserved.
 //
-#define URL_TEMPLATE (@"http://lioli.net/init/services/call/json/%s")
+#define URL_TEMPLATE (@"http://lioli.net/init/services/call/json/%@")
 #import <Foundation/Foundation.h>
 
 
