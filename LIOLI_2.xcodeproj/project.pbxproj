@@ -31,6 +31,7 @@
 		647DAC191477789C0035DF7D /* submitPink.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DAC151477789C0035DF7D /* submitPink.png */; };
 		647DAC1A1477789C0035DF7D /* submitPink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DAC161477789C0035DF7D /* submitPink@2x.png */; };
 		647DAC1C147778D00035DF7D /* lioli-icon3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DAC1B147778D00035DF7D /* lioli-icon3@2x.png */; };
+		6499120A147833D100DABBAD /* RecentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64991209147833D100DABBAD /* RecentsViewController.m */; };
 		64B6A82E144B94E3000E540B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A82D144B94E3000E540B /* UIKit.framework */; };
 		64B6A830144B94E3000E540B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A82F144B94E3000E540B /* Foundation.framework */; };
 		64B6A832144B94E3000E540B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A831144B94E3000E540B /* CoreGraphics.framework */; };
@@ -38,7 +39,6 @@
 		64B6A83A144B94E3000E540B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A839144B94E3000E540B /* main.m */; };
 		64B6A83E144B94E3000E540B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A83D144B94E3000E540B /* AppDelegate.m */; };
 		64B6A841144B94E3000E540B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A83F144B94E3000E540B /* MainStoryboard.storyboard */; };
-		64B6A844144B94E3000E540B /* RecentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A843144B94E3000E540B /* RecentsViewController.m */; };
 		64B6A846144B94E3000E540B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A845144B94E3000E540B /* first.png */; };
 		64B6A848144B94E3000E540B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B6A847144B94E3000E540B /* first@2x.png */; };
 		64B6A84B144B94E3000E540B /* RandomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B6A84A144B94E3000E540B /* RandomViewController.m */; };
@@ -92,6 +92,8 @@
 		647DAC151477789C0035DF7D /* submitPink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitPink.png; sourceTree = "<group>"; };
 		647DAC161477789C0035DF7D /* submitPink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submitPink@2x.png"; sourceTree = "<group>"; };
 		647DAC1B147778D00035DF7D /* lioli-icon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lioli-icon3@2x.png"; sourceTree = "<group>"; };
+		64991208147833D100DABBAD /* RecentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentsViewController.h; sourceTree = "<group>"; };
+		64991209147833D100DABBAD /* RecentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentsViewController.m; sourceTree = "<group>"; };
 		64B6A829144B94E2000E540B /* lioli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lioli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B6A82D144B94E3000E540B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64B6A82F144B94E3000E540B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,8 +105,6 @@
 		64B6A83C144B94E3000E540B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64B6A83D144B94E3000E540B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		64B6A840144B94E3000E540B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		64B6A842144B94E3000E540B /* RecentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecentsViewController.h; sourceTree = "<group>"; };
-		64B6A843144B94E3000E540B /* RecentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecentsViewController.m; sourceTree = "<group>"; };
 		64B6A845144B94E3000E540B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		64B6A847144B94E3000E540B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		64B6A849144B94E3000E540B /* RandomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomViewController.h; sourceTree = "<group>"; };
@@ -284,8 +284,8 @@
 		64FC94F414579F8B00EB5083 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				64B6A842144B94E3000E540B /* RecentsViewController.h */,
-				64B6A843144B94E3000E540B /* RecentsViewController.m */,
+				64991208147833D100DABBAD /* RecentsViewController.h */,
+				64991209147833D100DABBAD /* RecentsViewController.m */,
 				64B6A849144B94E3000E540B /* RandomViewController.h */,
 				64B6A84A144B94E3000E540B /* RandomViewController.m */,
 				64D0787D1476EC0E00646152 /* SearchViewController.h */,
@@ -453,12 +453,12 @@
 			files = (
 				64B6A83A144B94E3000E540B /* main.m in Sources */,
 				64B6A83E144B94E3000E540B /* AppDelegate.m in Sources */,
-				64B6A844144B94E3000E540B /* RecentsViewController.m in Sources */,
 				64B6A84B144B94E3000E540B /* RandomViewController.m in Sources */,
 				64D0787F1476EC0E00646152 /* SearchViewController.m in Sources */,
 				64D078821476EC2D00646152 /* SubmitViewController.m in Sources */,
 				64D078851476EC4000646152 /* AboutViewController.m in Sources */,
 				64D0788D1476F34D00646152 /* lioliHelper.m in Sources */,
+				6499120A147833D100DABBAD /* RecentsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
