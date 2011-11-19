@@ -79,12 +79,18 @@
     (NSDictionary *)[NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:url] 
                                                     options:NSJSONReadingMutableContainers 
                                                       error:nil];
-    NSLog(@"body:%@", [result objectForKey:@"body"]);
-    NSLog(@"id:%@", [result objectForKey:@"unique_id"]);
-    NSLog(@"love:%@", [result objectForKey:@"loves"]);
-    NSLog(@"leave:%@", [result objectForKey:@"leaves"]);
-    NSLog(@"gender:%@", [result objectForKey:@"gender"]);
-    NSLog(@"age:%@", [result objectForKey:@"age"]);
+    
+    if ([result objectForKey:@"wrongid"] != NULL){
+        NSLog(@"wrongid:%@", [result objectForKey:@"wrongid"]);
+    }
+    else {
+        NSLog(@"body:%@", [result objectForKey:@"body"]);
+        NSLog(@"id:%@", [result objectForKey:@"unique_id"]);
+        NSLog(@"love:%@", [result objectForKey:@"loves"]);
+        NSLog(@"leave:%@", [result objectForKey:@"leaves"]);
+        NSLog(@"gender:%@", [result objectForKey:@"gender"]);
+        NSLog(@"age:%@", [result objectForKey:@"age"]);
+    }
     
     return nil;
 }
