@@ -9,7 +9,23 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
-	<array/>
+	<array>
+		<string>lioli-icon3.png</string>
+		<string>lioli-icon3@2x.png</string>
+	</array>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>lioli-icon3.png</string>
+				<string>lioli-icon3@2x.png</string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>6UJ2HYPV3X.ECT538.LIOLI</string>
 	<key>CFBundleInfoDictionaryVersion</key>

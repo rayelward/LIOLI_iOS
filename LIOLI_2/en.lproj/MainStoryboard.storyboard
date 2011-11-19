@@ -32,7 +32,7 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Recents" image="first" id="7"/>
+                    <tabBarItem key="tabBarItem" title="Recents" image="heart.png" id="7"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="132" y="-414"/>
@@ -46,7 +46,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Submit" id="IFt-wd-TnG"/>
+                    <tabBarItem key="tabBarItem" title="Submit" image="submit.png" id="IFt-wd-TnG"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1005" y="171"/>
@@ -69,7 +69,7 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Search" id="My3-NT-UWy"/>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="My3-NT-UWy"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
             </objects>
@@ -104,7 +104,7 @@
                     <tabBarItem key="tabBarItem" title="Random" image="second" id="6"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="620" y="-414"/>
+            <point key="canvasLocation" x="575" y="-414"/>
         </scene>
         <scene sceneID="XW1-Dk-6bk">
             <objects>
@@ -115,7 +115,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" id="k3Y-xy-foP"/>
+                    <tabBarItem key="tabBarItem" title="About" image="question-mark.png" id="k3Y-xy-foP"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1029" y="-406"/>
@@ -143,8 +143,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="16" height="16"/>
+        <image name="heart.png" width="24" height="21"/>
+        <image name="question-mark.png" width="25" height="20"/>
         <image name="second" width="16" height="16"/>
+        <image name="submit.png" width="24" height="22"/>
     </resources>
     <classes>
         <class className="AboutViewController" superclassName="UIViewController">

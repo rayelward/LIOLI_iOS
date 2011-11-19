@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640B48A814776FC300706089 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48A414776FC300706089 /* Default.png */; };
+		640B48A914776FC300706089 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48A514776FC300706089 /* Default@2x.png */; };
+		640B48AA14776FC300706089 /* lioli-icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48A614776FC300706089 /* lioli-icon3.png */; };
+		640B48AD1477701500706089 /* lioli-icon3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48AC1477701500706089 /* lioli-icon3@2x.png */; };
+		640B48C8147771C400706089 /* leave_button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48C0147771C400706089 /* leave_button_down.png */; };
+		640B48C9147771C400706089 /* leave_button_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48C1147771C400706089 /* leave_button_down@2x.png */; };
+		640B48CA147771C400706089 /* leave_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48C2147771C400706089 /* leave_button.png */; };
+		640B48CB147771C400706089 /* leave_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48C3147771C400706089 /* leave_button@2x.png */; };
+		640B48CC147771C400706089 /* love_button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48C4147771C400706089 /* love_button_down.png */; };
+		640B48CD147771C400706089 /* love_button_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48C5147771C400706089 /* love_button_down@2x.png */; };
+		640B48CE147771C400706089 /* love_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48C6147771C400706089 /* love_button.png */; };
+		640B48CF147771C400706089 /* love_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48C7147771C400706089 /* love_button@2x.png */; };
+		640B48D6147771DA00706089 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48D0147771DA00706089 /* heart.png */; };
+		640B48D7147771DA00706089 /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48D1147771DA00706089 /* heart@2x.png */; };
+		640B48D8147771DA00706089 /* question-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48D2147771DA00706089 /* question-mark.png */; };
+		640B48D9147771DA00706089 /* question-mark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48D3147771DA00706089 /* question-mark@2x.png */; };
+		640B48DA147771DA00706089 /* submit.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48D4147771DA00706089 /* submit.png */; };
+		640B48DB147771DA00706089 /* submit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48D5147771DA00706089 /* submit@2x.png */; };
+		640B48DE1477724F00706089 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48DC1477724F00706089 /* next.png */; };
+		640B48DF1477724F00706089 /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48DD1477724F00706089 /* next@2x.png */; };
 		64B6A82E144B94E3000E540B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A82D144B94E3000E540B /* UIKit.framework */; };
 		64B6A830144B94E3000E540B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A82F144B94E3000E540B /* Foundation.framework */; };
 		64B6A832144B94E3000E540B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B6A831144B94E3000E540B /* CoreGraphics.framework */; };
@@ -44,6 +64,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		640B48A414776FC300706089 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		640B48A514776FC300706089 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		640B48A614776FC300706089 /* lioli-icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lioli-icon3.png"; sourceTree = "<group>"; };
+		640B48AC1477701500706089 /* lioli-icon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lioli-icon3@2x.png"; path = "../lioli-icon3@2x.png"; sourceTree = "<group>"; };
+		640B48C0147771C400706089 /* leave_button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leave_button_down.png; sourceTree = "<group>"; };
+		640B48C1147771C400706089 /* leave_button_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leave_button_down@2x.png"; sourceTree = "<group>"; };
+		640B48C2147771C400706089 /* leave_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leave_button.png; sourceTree = "<group>"; };
+		640B48C3147771C400706089 /* leave_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leave_button@2x.png"; sourceTree = "<group>"; };
+		640B48C4147771C400706089 /* love_button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love_button_down.png; sourceTree = "<group>"; };
+		640B48C5147771C400706089 /* love_button_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love_button_down@2x.png"; sourceTree = "<group>"; };
+		640B48C6147771C400706089 /* love_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love_button.png; sourceTree = "<group>"; };
+		640B48C7147771C400706089 /* love_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love_button@2x.png"; sourceTree = "<group>"; };
+		640B48D0147771DA00706089 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		640B48D1147771DA00706089 /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
+		640B48D2147771DA00706089 /* question-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question-mark.png"; sourceTree = "<group>"; };
+		640B48D3147771DA00706089 /* question-mark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question-mark@2x.png"; sourceTree = "<group>"; };
+		640B48D4147771DA00706089 /* submit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit.png; sourceTree = "<group>"; };
+		640B48D5147771DA00706089 /* submit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submit@2x.png"; sourceTree = "<group>"; };
+		640B48DC1477724F00706089 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		640B48DD1477724F00706089 /* next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@2x.png"; sourceTree = "<group>"; };
 		64B6A829144B94E2000E540B /* lioli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lioli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B6A82D144B94E3000E540B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64B6A82F144B94E3000E540B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,6 +146,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		640B48A214776F8700706089 /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				640B48AC1477701500706089 /* lioli-icon3@2x.png */,
+				640B48A414776FC300706089 /* Default.png */,
+				640B48A514776FC300706089 /* Default@2x.png */,
+				640B48A614776FC300706089 /* lioli-icon3.png */,
+			);
+			name = launch;
+			sourceTree = "<group>";
+		};
+		640B48AE1477714500706089 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				640B48DC1477724F00706089 /* next.png */,
+				640B48DD1477724F00706089 /* next@2x.png */,
+				640B48C0147771C400706089 /* leave_button_down.png */,
+				640B48C1147771C400706089 /* leave_button_down@2x.png */,
+				640B48C2147771C400706089 /* leave_button.png */,
+				640B48C3147771C400706089 /* leave_button@2x.png */,
+				640B48C4147771C400706089 /* love_button_down.png */,
+				640B48C5147771C400706089 /* love_button_down@2x.png */,
+				640B48C6147771C400706089 /* love_button.png */,
+				640B48C7147771C400706089 /* love_button@2x.png */,
+			);
+			name = buttons;
+			sourceTree = "<group>";
+		};
 		64B6A81E144B94E1000E540B = {
 			isa = PBXGroup;
 			children = (
@@ -142,12 +210,12 @@
 			children = (
 				64D078861476EF0B00646152 /* JSON parsing */,
 				64FC94F414579F8B00EB5083 /* ViewControllers */,
-				64FC94F214579F7100EB5083 /* images */,
 				64B6A83C144B94E3000E540B /* AppDelegate.h */,
 				64B6A83D144B94E3000E540B /* AppDelegate.m */,
 				64B6A83F144B94E3000E540B /* MainStoryboard.storyboard */,
 				64B6A834144B94E3000E540B /* Supporting Files */,
 				64B6A86D144B9B88000E540B /* README.md */,
+				64FC94F214579F7100EB5083 /* images */,
 			);
 			path = LIOLI_2;
 			sourceTree = "<group>";
@@ -194,6 +262,8 @@
 		64FC94F214579F7100EB5083 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				640B48AE1477714500706089 /* buttons */,
+				640B48A214776F8700706089 /* launch */,
 				64FC94F71457A00800EB5083 /* tabbar */,
 			);
 			name = images;
@@ -219,6 +289,12 @@
 		64FC94F71457A00800EB5083 /* tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				640B48D0147771DA00706089 /* heart.png */,
+				640B48D1147771DA00706089 /* heart@2x.png */,
+				640B48D2147771DA00706089 /* question-mark.png */,
+				640B48D3147771DA00706089 /* question-mark@2x.png */,
+				640B48D4147771DA00706089 /* submit.png */,
+				640B48D5147771DA00706089 /* submit@2x.png */,
 				64B6A84C144B94E3000E540B /* second.png */,
 				64B6A84E144B94E3000E540B /* second@2x.png */,
 				64B6A845144B94E3000E540B /* first.png */,
@@ -305,6 +381,26 @@
 				64B6A84D144B94E3000E540B /* second.png in Resources */,
 				64B6A84F144B94E3000E540B /* second@2x.png in Resources */,
 				64B6A86E144B9B89000E540B /* README.md in Resources */,
+				640B48A814776FC300706089 /* Default.png in Resources */,
+				640B48A914776FC300706089 /* Default@2x.png in Resources */,
+				640B48AA14776FC300706089 /* lioli-icon3.png in Resources */,
+				640B48AD1477701500706089 /* lioli-icon3@2x.png in Resources */,
+				640B48C8147771C400706089 /* leave_button_down.png in Resources */,
+				640B48C9147771C400706089 /* leave_button_down@2x.png in Resources */,
+				640B48CA147771C400706089 /* leave_button.png in Resources */,
+				640B48CB147771C400706089 /* leave_button@2x.png in Resources */,
+				640B48CC147771C400706089 /* love_button_down.png in Resources */,
+				640B48CD147771C400706089 /* love_button_down@2x.png in Resources */,
+				640B48CE147771C400706089 /* love_button.png in Resources */,
+				640B48CF147771C400706089 /* love_button@2x.png in Resources */,
+				640B48D6147771DA00706089 /* heart.png in Resources */,
+				640B48D7147771DA00706089 /* heart@2x.png in Resources */,
+				640B48D8147771DA00706089 /* question-mark.png in Resources */,
+				640B48D9147771DA00706089 /* question-mark@2x.png in Resources */,
+				640B48DA147771DA00706089 /* submit.png in Resources */,
+				640B48DB147771DA00706089 /* submit@2x.png in Resources */,
+				640B48DE1477724F00706089 /* next.png in Resources */,
+				640B48DF1477724F00706089 /* next@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
