@@ -54,6 +54,7 @@
 		64D078821476EC2D00646152 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D078811476EC2D00646152 /* SubmitViewController.m */; };
 		64D078851476EC4000646152 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D078841476EC4000646152 /* AboutViewController.m */; };
 		64D0788D1476F34D00646152 /* lioliHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D0788C1476F34D00646152 /* lioliHelper.m */; };
+		64E87DBC147C498A00BA2F67 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E87DBB147C498A00BA2F67 /* MessageUI.framework */; };
 		64FC94F614579FC700EB5083 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FC94F514579FC700EB5083 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
@@ -126,6 +127,7 @@
 		64D078841476EC4000646152 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		64D0788B1476F34D00646152 /* lioliHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lioliHelper.h; sourceTree = "<group>"; };
 		64D0788C1476F34D00646152 /* lioliHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lioliHelper.m; sourceTree = "<group>"; };
+		64E87DBB147C498A00BA2F67 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		64FC94F514579FC700EB5083 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E87DBC147C498A00BA2F67 /* MessageUI.framework in Frameworks */,
 				64FC94F614579FC700EB5083 /* iAd.framework in Frameworks */,
 				64B6A82E144B94E3000E540B /* UIKit.framework in Frameworks */,
 				64B6A830144B94E3000E540B /* Foundation.framework in Frameworks */,
@@ -208,6 +211,7 @@
 		64B6A82C144B94E2000E540B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64E87DBB147C498A00BA2F67 /* MessageUI.framework */,
 				64FC94F514579FC700EB5083 /* iAd.framework */,
 				64B6A82D144B94E3000E540B /* UIKit.framework */,
 				64B6A82F144B94E3000E540B /* Foundation.framework */,

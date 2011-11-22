@@ -7,7 +7,6 @@
 //
 
 #import "AboutViewController.h"
-#import "lioliHelper.h"
 
 @implementation AboutViewController
 
@@ -56,5 +55,66 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+
+#pragma mark - action button methods
+- (IBAction)emailButton:(id)sender {
+    if ([MFMailComposeViewController canSendMail]) {
+        [self showEmailModalView];
+    } else {
+        [[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"mailto:feedback.LIOLI@gmail.com"]];
+    }
+}
+
+-(void) showEmailModalView {
+    MFMailComposeViewController *mailComposeView = [[MFMailComposeViewController alloc] init];
+    [mailComposeView setMailComposeDelegate:self];
+    
+    [mailComposeView setSubject:@"LIOLI iPhone app feedback."];
+    [mailComposeView setToRecipients:[NSArray arrayWithObject:@"feedback.LIOLI@gmail.com"]];
+    // Fill out the email body text
+    NSString *emailBody = [NSString stringWithFormat:@"IPhone app feedback:"];
+    
+    [mailComposeView setMessageBody:emailBody isHTML:YES]; 
+    mailComposeView.navigationBar.barStyle = UIBarStyleBlack; 
+    
+    [self presentModalViewController:mailComposeView animated:YES];
+    
+    
+}
+
+
+#pragma mark - Mail compose delegate methods
+
+// Dismisses the email composition interface when users tap Cancel or Send. Proceeds to update the message field with the result of the operation.
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
+{ 
+    // Notifies users about errors associated with the interface
+    switch (result)
+    {
+        case MFMailComposeResultCancelled:
+            break;
+        case MFMailComposeResultSaved:
+            break;
+        case MFMailComposeResultSent:
+            break;
+        case MFMailComposeResultFailed:
+            
+        default:
+        {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Email" 
+                                                            message:@"Sending Failed"
+                                                           delegate:self 
+                                                  cancelButtonTitle:@"OK" 
+                                                  otherButtonTitles: nil];
+            [alert show];
+        }
+            
+            break;
+    }
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 
 @end

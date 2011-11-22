@@ -10,4 +10,19 @@
 
 @interface SearchViewController : UIViewController
 
+
+@property (weak, nonatomic) IBOutlet UITextField *idInputField;
+@property (weak, nonatomic) IBOutlet UIButton *submitButton;
+@property (weak, nonatomic) IBOutlet UITextView *bodyTextArea;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (nonatomic, retain) NSMutableData *receivedData;
+@property (weak, nonatomic) IBOutlet UILabel *loveLabel;
+@property (weak, nonatomic) IBOutlet UILabel *leaveLabel;
+@property (weak, nonatomic) IBOutlet UILabel *ageLabel;
+@property (weak, nonatomic) IBOutlet UILabel *genderLabel;
+
+
+- (IBAction)submitTouchDown:(id)sender;
+- (IBAction)backgroundTouchDown:(id)sender;
+
 @end
