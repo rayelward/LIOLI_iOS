@@ -52,19 +52,13 @@
  {
      [super viewDidLoad];
      activityIndicator.hidesWhenStopped = YES;
+     [bodyTextArea setHidden:YES];
+     [loveLabel setHidden:YES];
+     [leaveLabel setHidden:YES];
+     [ageLabel setHidden:YES];
+     [genderLabel setHidden:YES];
  }
  
-
--(void)viewWillAppear:(BOOL)animated 
-{
-    [bodyTextArea setHidden:YES];
-    [loveLabel setHidden:YES];
-    [leaveLabel setHidden:YES];
-    [ageLabel setHidden:YES];
-    [genderLabel setHidden:YES];
-    [submitButton setHidden:NO];
-    [activityIndicator stopAnimating];
-}
 
 - (void)viewDidUnload
 {
@@ -138,9 +132,8 @@
             receivedData = [NSMutableData data];
             [self receiveDidStart];
         } else {
-            //TODO add an alert view that tells the user the connection failed.
             UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Error"
-                                                                message:@"There was a network connection.  Could not receive data." 
+                                                                message:@"There was a network connection error.  Could not receive data." 
                                                                delegate:self 
                                                       cancelButtonTitle:@"OK" 
                                                       otherButtonTitles:nil];
@@ -166,8 +159,6 @@
     
     // It can be called multiple times, for example in the case of a
     // redirect, so each time we reset the data.
-    
-    // receivedData is an instance variable declared elsewhere.
     [receivedData setLength:0];
 }
 
@@ -175,7 +166,6 @@
 {
     // Append the new data to receivedData.
     // receivedData is an instance variable declared elsewhere.
-    NSLog(@"Got some data: %d", [data length]);
     [receivedData appendData:data];
 }
 
@@ -187,7 +177,7 @@
     
     // inform the user
     UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Error"
-                                                        message:@"There was a network connection.  Could not receive data." 
+                                                        message:@"There was a network connection error.  Could not receive data." 
                                                        delegate:self 
                                               cancelButtonTitle:@"OK" 
                                               otherButtonTitles:nil];
@@ -195,6 +185,7 @@
     NSLog(@"Connection failed! Error - %@ %@",
           [error localizedDescription],
           [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
+    [self setReceivedData:nil];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
