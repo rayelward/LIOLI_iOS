@@ -136,6 +136,7 @@
         [alertView show];
         return NO;
     }
+    
     return YES;
 }
 
@@ -157,7 +158,12 @@
                                                  cachePolicy: NSURLRequestUseProtocolCachePolicy
                                              timeoutInterval: 30.0];
         
+        //escaping characters that may cut off parts of a post.
+        body = [body stringByReplacingOccurrencesOfString:@"&" withString:@"%26"];
+        body = [body stringByReplacingOccurrencesOfString:@";" withString:@"%3B"];
+        
         NSString *params = [NSString stringWithFormat:@"body=%@&age=%@&gender=%@", body, age, gender];
+        
         
         [request setHTTPMethod:@"POST"];
         [request setHTTPBody:[params dataUsingEncoding:NSUTF8StringEncoding]];
