@@ -51,7 +51,7 @@
  - (void)viewDidLoad
  {
      [super viewDidLoad];
-     activityIndicator.hidesWhenStopped = YES;
+     [activityIndicator setHidesWhenStopped:YES];
      [bodyTextArea setHidden:YES];
      [loveLabel setHidden:YES];
      [leaveLabel setHidden:YES];
