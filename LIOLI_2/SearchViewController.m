@@ -120,11 +120,10 @@
         [self receiveDidEnd];
     }
     else {
-        NSLog(@"id: %@", uniqueId);
         NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:URL_TEMPLATE, uniqueId]]
                                                                       cachePolicy: NSURLRequestUseProtocolCachePolicy
                                                                   timeoutInterval: 30.0];
-        NSLog(@"nsurl: %@", request);
+        
         NSURLConnection *connection = [NSURLConnection connectionWithRequest:request delegate:self];
        
         

@@ -150,16 +150,13 @@
     NSString *body = [bodyTextField text];
     NSString *age = [ageTextField text];
     NSString *gender = [genderTextField text];
-    NSLog(@"body: %@", body);
-    NSLog(@"age: %@", age);
-    NSLog(@"gender: %@", gender);
     
     if ([self validateBody:body age:age gender:gender]){
         //send post
         NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL: [NSURL URLWithString:URL_TEMPLATE]
                                                  cachePolicy: NSURLRequestUseProtocolCachePolicy
                                              timeoutInterval: 30.0];
-        NSLog(@"nsurl: %@", request);
+        
         NSString *params = [NSString stringWithFormat:@"body=%@&age=%@&gender=%@", body, age, gender];
         
         [request setHTTPMethod:@"POST"];
