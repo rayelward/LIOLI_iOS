@@ -104,7 +104,7 @@
                                          timeoutInterval: 30.0];
     
     REURLConnection *connection = [[REURLConnection alloc] initWithRequest:request delegate:self];
-    connection.tag = [NSString stringWithString:@"array"];
+    [connection setTag:[NSString stringWithString:@"array"]];
     
     if (connection) 
     {
@@ -207,9 +207,9 @@
     // do something with the data
     // receivedData is declared as a method instance elsewhere
     
-    NSLog(@"connection.tag: %@", connection.tag);
+    NSLog(@"connection.tag: %@", [connection tag]);
     
-    if ([connection.tag isEqualToString:@"array"])
+    if ([[connection tag] isEqualToString:@"array"])
     {
         NSArray *result = (NSArray *)[NSJSONSerialization JSONObjectWithData:receivedData 
                                                                      options:NSJSONReadingMutableContainers 
@@ -218,7 +218,7 @@
         randomEntries = [result mutableCopy];
         //Array got filled!
     } 
-    else if ([connection.tag isEqualToString:@"love"])
+    else if ([[connection tag] isEqualToString:@"love"])
     {
         //update love tag
         NSDictionary *result = (NSDictionary *)[NSJSONSerialization JSONObjectWithData:receivedData 
@@ -226,7 +226,7 @@
                                                                                  error:nil];
         [loveTextLabel setText:[NSString stringWithFormat:@"Loves: %@", [result objectForKey:@"new_loves"]]];
     }
-    else if ([connection.tag isEqualToString:@"leave"])
+    else if ([[connection tag] isEqualToString:@"leave"])
     {
         //update leave tag
         NSDictionary *result = (NSDictionary *)[NSJSONSerialization JSONObjectWithData:receivedData 
