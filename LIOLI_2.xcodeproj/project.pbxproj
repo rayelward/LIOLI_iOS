@@ -26,6 +26,7 @@
 		640B48DB147771DA00706089 /* submit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48D5147771DA00706089 /* submit@2x.png */; };
 		640B48DE1477724F00706089 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48DC1477724F00706089 /* next.png */; };
 		640B48DF1477724F00706089 /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48DD1477724F00706089 /* next@2x.png */; };
+		6445FC12147DEB7900BE9159 /* REURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6445FC11147DEB7900BE9159 /* REURLConnection.m */; };
 		647DAC171477789C0035DF7D /* submitBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DAC131477789C0035DF7D /* submitBlue.png */; };
 		647DAC181477789C0035DF7D /* submitBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DAC141477789C0035DF7D /* submitBlue@2x.png */; };
 		647DAC191477789C0035DF7D /* submitPink.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DAC151477789C0035DF7D /* submitPink.png */; };
@@ -53,7 +54,6 @@
 		64D0787F1476EC0E00646152 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D0787E1476EC0E00646152 /* SearchViewController.m */; };
 		64D078821476EC2D00646152 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D078811476EC2D00646152 /* SubmitViewController.m */; };
 		64D078851476EC4000646152 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D078841476EC4000646152 /* AboutViewController.m */; };
-		64D0788D1476F34D00646152 /* lioliHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D0788C1476F34D00646152 /* lioliHelper.m */; };
 		64E87DBC147C498A00BA2F67 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E87DBB147C498A00BA2F67 /* MessageUI.framework */; };
 		64FC94F614579FC700EB5083 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FC94F514579FC700EB5083 /* iAd.framework */; };
 /* End PBXBuildFile section */
@@ -88,6 +88,8 @@
 		640B48D5147771DA00706089 /* submit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submit@2x.png"; sourceTree = "<group>"; };
 		640B48DC1477724F00706089 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
 		640B48DD1477724F00706089 /* next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@2x.png"; sourceTree = "<group>"; };
+		6445FC10147DEB7900BE9159 /* REURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REURLConnection.h; sourceTree = "<group>"; };
+		6445FC11147DEB7900BE9159 /* REURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REURLConnection.m; sourceTree = "<group>"; };
 		647DAC131477789C0035DF7D /* submitBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitBlue.png; sourceTree = "<group>"; };
 		647DAC141477789C0035DF7D /* submitBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submitBlue@2x.png"; sourceTree = "<group>"; };
 		647DAC151477789C0035DF7D /* submitPink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitPink.png; sourceTree = "<group>"; };
@@ -125,8 +127,6 @@
 		64D078811476EC2D00646152 /* SubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitViewController.m; sourceTree = "<group>"; };
 		64D078831476EC4000646152 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		64D078841476EC4000646152 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		64D0788B1476F34D00646152 /* lioliHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lioliHelper.h; sourceTree = "<group>"; };
-		64D0788C1476F34D00646152 /* lioliHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lioliHelper.m; sourceTree = "<group>"; };
 		64E87DBB147C498A00BA2F67 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		64FC94F514579FC700EB5083 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -224,7 +224,8 @@
 		64B6A833144B94E3000E540B /* LIOLI_2 */ = {
 			isa = PBXGroup;
 			children = (
-				64D078861476EF0B00646152 /* JSON parsing */,
+				6445FC10147DEB7900BE9159 /* REURLConnection.h */,
+				6445FC11147DEB7900BE9159 /* REURLConnection.m */,
 				64FC94F414579F8B00EB5083 /* ViewControllers */,
 				64B6A83C144B94E3000E540B /* AppDelegate.h */,
 				64B6A83D144B94E3000E540B /* AppDelegate.m */,
@@ -264,15 +265,6 @@
 				64B6A85F144B94E3000E540B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		64D078861476EF0B00646152 /* JSON parsing */ = {
-			isa = PBXGroup;
-			children = (
-				64D0788B1476F34D00646152 /* lioliHelper.h */,
-				64D0788C1476F34D00646152 /* lioliHelper.m */,
-			);
-			name = "JSON parsing";
 			sourceTree = "<group>";
 		};
 		64FC94F214579F7100EB5083 /* images */ = {
@@ -461,8 +453,8 @@
 				64D0787F1476EC0E00646152 /* SearchViewController.m in Sources */,
 				64D078821476EC2D00646152 /* SubmitViewController.m in Sources */,
 				64D078851476EC4000646152 /* AboutViewController.m in Sources */,
-				64D0788D1476F34D00646152 /* lioliHelper.m in Sources */,
 				6499120A147833D100DABBAD /* RecentsViewController.m in Sources */,
+				6445FC12147DEB7900BE9159 /* REURLConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

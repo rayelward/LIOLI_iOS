@@ -228,6 +228,7 @@
           [error localizedDescription],
           [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
     [self setReceivedData:nil];
+    [self receiveDidEnd];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
