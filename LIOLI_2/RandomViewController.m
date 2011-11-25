@@ -68,7 +68,22 @@
     
     if ([randomEntries count] == 0) {
         randomEntries = [[NSMutableArray alloc] init];
+        [activityIndicator startAnimating];
+        
+        [nextButton setHidden:YES];
+        [idTextLabel setHidden:YES];
+        [ageTextLabel setHidden:YES];
+        [genderTextLabel setHidden:YES];
+        [bodyTextField setHidden:YES];
+        [loveButton setHidden:YES];
+        [leaveButton setHidden:YES];
+        
+        [leaveTextLabel setHidden:YES];
+        [loveTextLabel setHidden:YES];
         [self fillArray];
+    }
+    else {
+        [self showEntry];
     }
 }
 
@@ -124,6 +139,33 @@
     
 }
 
+-(void) showEntry
+{
+    currentEntry = [[randomEntries objectAtIndex:0] copy];
+    [randomEntries removeObjectAtIndex:0];
+    
+    [nextButton setHidden:NO];
+    
+    
+    [idTextLabel setText: [NSString stringWithFormat:@"ID: %@", [currentEntry objectForKey:@"unique_id"]]];
+    [idTextLabel setHidden:NO];
+    
+    [ageTextLabel setText: [NSString stringWithFormat:@"Age: %@", [currentEntry objectForKey:@"age"]]];
+    [ageTextLabel setHidden:NO];
+    
+    [genderTextLabel setText: [NSString stringWithFormat:@"Gender: %@", [currentEntry objectForKey:@"gender"]]];
+    [genderTextLabel setHidden:NO];
+    
+    [bodyTextField setText: [NSString stringWithFormat:@"%@", [currentEntry objectForKey:@"body"]]];
+    [bodyTextField setHidden:NO];
+    
+    [loveTextLabel setText: [NSString stringWithFormat:@"Loves: %@", [currentEntry objectForKey:@"loves"]]];
+    [leaveTextLabel setText: [NSString stringWithFormat:@"Leaves: %@", [currentEntry objectForKey:@"leaves"] ]];
+    [loveButton setHidden:NO];
+    [leaveButton setHidden:NO];
+    
+    [activityIndicator stopAnimating];
+}
 
 -(void) receiveDidBegin
 {
@@ -138,27 +180,101 @@
 
 - (IBAction)nextTouchDown:(id)sender 
 {
+    [activityIndicator startAnimating];
     //hide next
+    [nextButton setHidden:YES];
     
+    [leaveButton setHidden:NO];
+    [loveButton setHidden:NO];
+    [loveTextLabel setHidden:YES];
+    [leaveTextLabel setHidden:YES];
     //if array is empty collect 10 more
-    
-    //else add
+    if ([randomEntries count] == 0) {
+        randomEntries = [[NSMutableArray alloc] init];
+        [activityIndicator startAnimating];
+        
+        [nextButton setHidden:YES];
+        [idTextLabel setHidden:YES];
+        [ageTextLabel setHidden:YES];
+        [genderTextLabel setHidden:YES];
+        [bodyTextField setHidden:YES];
+        [loveButton setHidden:YES];
+        [leaveButton setHidden:YES];
+        
+        [leaveTextLabel setHidden:YES];
+        [loveTextLabel setHidden:YES];
+        [self fillArray];
+    }
+    else {
+        [self showEntry];
+    }
 }
 
 - (IBAction)leaveTouchDown:(id)sender 
 {
+    [activityIndicator startAnimating];
     //hide buttons
-    
+    [leaveButton setHidden:YES];
+    [loveButton setHidden:YES];
+    //show data
+    [leaveTextLabel setHidden:NO];
+    [loveTextLabel setHidden:NO];
     //cast vote
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:LEAVE_URL, [currentEntry objectForKey:@"unique_id"]]]
+                                             cachePolicy: NSURLRequestUseProtocolCachePolicy
+                                         timeoutInterval: 30.0];
+    
+    REURLConnection *connection = [[REURLConnection alloc] initWithRequest:request delegate:self];
+    [connection setTag:[NSString stringWithString:@"leave"]];
+    
+    if (connection) 
+    {
+        receivedData = [NSMutableData data];
+    }
+    else 
+    {
+        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Error"
+                                                            message:@"There was a network connection error.  Could not receive data." 
+                                                           delegate:self 
+                                                  cancelButtonTitle:@"OK" 
+                                                  otherButtonTitles:nil];
+        [alertView show];
+        return;
+    }
 }
 
 - (IBAction)loveTouchDown:(id)sender 
 {
+    [activityIndicator startAnimating];
     //hide buttons
-    
+    [leaveButton setHidden:YES];
+    [loveButton setHidden:YES];
     //show data
-    
+    [leaveTextLabel setHidden:NO];
+    [loveTextLabel setHidden:NO];
     //cast vote
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:LOVE_URL, [currentEntry objectForKey:@"unique_id"]]]
+                                             cachePolicy: NSURLRequestUseProtocolCachePolicy
+                                         timeoutInterval: 30.0];
+    
+    REURLConnection *connection = [[REURLConnection alloc] initWithRequest:request delegate:self];
+    [connection setTag:[NSString stringWithString:@"love"]];
+    
+    if (connection) 
+    {
+        receivedData = [NSMutableData data];
+    }
+    else 
+    {
+        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Error"
+                                                            message:@"There was a network connection error.  Could not receive data." 
+                                                           delegate:self 
+                                                  cancelButtonTitle:@"OK" 
+                                                  otherButtonTitles:nil];
+        [alertView show];
+        return;
+    }
+    
 }
 
 #pragma mark - NSURLConnection delegate methods
@@ -216,7 +332,8 @@
                                                                        error:nil];
         NSLog(@"result: [%@]", result);
         randomEntries = [result mutableCopy];
-        //Array got filled!
+        //show entry
+        [self showEntry];
     } 
     else if ([[connection tag] isEqualToString:@"love"])
     {
@@ -224,7 +341,9 @@
         NSDictionary *result = (NSDictionary *)[NSJSONSerialization JSONObjectWithData:receivedData 
                                                                                options:NSJSONReadingMutableContainers 
                                                                                  error:nil];
-        [loveTextLabel setText:[NSString stringWithFormat:@"Loves: %@", [result objectForKey:@"new_loves"]]];
+        NSLog(@"result: [%@]", result);
+        [loveTextLabel setText:[NSString stringWithFormat:@"Loves: %@", [result objectForKey:@"newloves"]]];
+        [activityIndicator stopAnimating];
     }
     else if ([[connection tag] isEqualToString:@"leave"])
     {
@@ -232,7 +351,9 @@
         NSDictionary *result = (NSDictionary *)[NSJSONSerialization JSONObjectWithData:receivedData 
                                                                                options:NSJSONReadingMutableContainers 
                                                                                  error:nil];
-        [leaveTextLabel setText:[NSString stringWithFormat:@"Leaves: %@", [result objectForKey:@"new_leaves"]]];
+        NSLog(@"result: [%@]", result);
+        [leaveTextLabel setText:[NSString stringWithFormat:@"Leaves: %@", [result objectForKey:@"newleaves"]]];
+        [activityIndicator stopAnimating];
     }
     
 }

@@ -31,7 +31,7 @@
 - (IBAction)leaveTouchDown:(id)sender;
 - (IBAction)loveTouchDown:(id)sender;
 
-
+-(void) showEntry;
 -(void) fillArray;
 -(void) receiveDidBegin;
 -(void) receiveDidEnd;

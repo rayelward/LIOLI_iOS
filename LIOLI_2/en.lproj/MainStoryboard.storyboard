@@ -271,7 +271,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cOU-X5-DbE">
-                                <rect key="frame" x="36" y="277" width="99" height="44"/>
+                                <rect key="frame" x="17" y="277" width="99" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="love_button.png">
@@ -286,7 +286,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="esy-37-jGB">
-                                <rect key="frame" x="171" y="277" width="102" height="44"/>
+                                <rect key="frame" x="194" y="277" width="102" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="leave_button.png">
@@ -306,18 +306,18 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Loves:" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" minimumFontSize="10" id="7Og-Cw-2LL">
-                                <rect key="frame" x="36" y="287" width="99" height="21"/>
+                                <rect key="frame" x="17" y="285.5" width="118" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                 <color key="textColor" red="0.98431378599999997" green="0.11372549830000001" blue="0.98431378599999997" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Leaves:" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" minimumFontSize="10" id="K6r-5S-uRY">
-                                <rect key="frame" x="176" y="287" width="97" height="21"/>
+                                <rect key="frame" x="176" y="283.5" width="138" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                 <color key="textColor" red="0.37254902719999999" green="0.99215692280000001" blue="0.87450987099999999" alpha="1" colorSpace="deviceRGB"/>
