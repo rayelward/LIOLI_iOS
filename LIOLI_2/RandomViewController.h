@@ -33,6 +33,4 @@
 
 -(void) showEntry;
 -(void) fillArray;
--(void) receiveDidBegin;
--(void) receiveDidEnd;
 @end

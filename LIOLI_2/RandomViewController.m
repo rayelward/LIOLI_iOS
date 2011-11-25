@@ -144,6 +144,9 @@
     currentEntry = [[randomEntries objectAtIndex:0] copy];
     [randomEntries removeObjectAtIndex:0];
     
+    [leaveTextLabel setHidden:YES];
+    [loveTextLabel setHidden:YES];
+    
     [nextButton setHidden:NO];
     
     
@@ -167,14 +170,7 @@
     [activityIndicator stopAnimating];
 }
 
--(void) receiveDidBegin
-{
-    
-}
--(void) receiveDidEnd
-{
-    
-}
+
 
 #pragma mark - touch events
 

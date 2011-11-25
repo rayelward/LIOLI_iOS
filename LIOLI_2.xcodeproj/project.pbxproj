@@ -26,7 +26,10 @@
 		640B48DB147771DA00706089 /* submit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48D5147771DA00706089 /* submit@2x.png */; };
 		640B48DE1477724F00706089 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48DC1477724F00706089 /* next.png */; };
 		640B48DF1477724F00706089 /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B48DD1477724F00706089 /* next@2x.png */; };
+		6425A44A1480414A0029DD21 /* bannerForApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6425A4491480414A0029DD21 /* bannerForApp.png */; };
 		6445FC12147DEB7900BE9159 /* REURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6445FC11147DEB7900BE9159 /* REURLConnection.m */; };
+		6479BDED148034E4002427F1 /* brokenHeart.png in Resources */ = {isa = PBXBuildFile; fileRef = 6479BDEB148034E4002427F1 /* brokenHeart.png */; };
+		6479BDEE148034E4002427F1 /* brokenHeart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6479BDEC148034E4002427F1 /* brokenHeart@2x.png */; };
 		647DAC171477789C0035DF7D /* submitBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DAC131477789C0035DF7D /* submitBlue.png */; };
 		647DAC181477789C0035DF7D /* submitBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DAC141477789C0035DF7D /* submitBlue@2x.png */; };
 		647DAC191477789C0035DF7D /* submitPink.png in Resources */ = {isa = PBXBuildFile; fileRef = 647DAC151477789C0035DF7D /* submitPink.png */; };
@@ -88,8 +91,11 @@
 		640B48D5147771DA00706089 /* submit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submit@2x.png"; sourceTree = "<group>"; };
 		640B48DC1477724F00706089 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
 		640B48DD1477724F00706089 /* next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@2x.png"; sourceTree = "<group>"; };
+		6425A4491480414A0029DD21 /* bannerForApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerForApp.png; sourceTree = "<group>"; };
 		6445FC10147DEB7900BE9159 /* REURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REURLConnection.h; sourceTree = "<group>"; };
 		6445FC11147DEB7900BE9159 /* REURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REURLConnection.m; sourceTree = "<group>"; };
+		6479BDEB148034E4002427F1 /* brokenHeart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brokenHeart.png; sourceTree = "<group>"; };
+		6479BDEC148034E4002427F1 /* brokenHeart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brokenHeart@2x.png"; sourceTree = "<group>"; };
 		647DAC131477789C0035DF7D /* submitBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitBlue.png; sourceTree = "<group>"; };
 		647DAC141477789C0035DF7D /* submitBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submitBlue@2x.png"; sourceTree = "<group>"; };
 		647DAC151477789C0035DF7D /* submitPink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitPink.png; sourceTree = "<group>"; };
@@ -270,6 +276,7 @@
 		64FC94F214579F7100EB5083 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				6425A4491480414A0029DD21 /* bannerForApp.png */,
 				640B48AE1477714500706089 /* buttons */,
 				640B48A214776F8700706089 /* launch */,
 				64FC94F71457A00800EB5083 /* tabbar */,
@@ -297,6 +304,8 @@
 		64FC94F71457A00800EB5083 /* tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				6479BDEB148034E4002427F1 /* brokenHeart.png */,
+				6479BDEC148034E4002427F1 /* brokenHeart@2x.png */,
 				640B48D0147771DA00706089 /* heart.png */,
 				640B48D1147771DA00706089 /* heart@2x.png */,
 				640B48D2147771DA00706089 /* question-mark.png */,
@@ -413,6 +422,9 @@
 				647DAC191477789C0035DF7D /* submitPink.png in Resources */,
 				647DAC1A1477789C0035DF7D /* submitPink@2x.png in Resources */,
 				647DAC1C147778D00035DF7D /* lioli-icon3@2x.png in Resources */,
+				6479BDED148034E4002427F1 /* brokenHeart.png in Resources */,
+				6479BDEE148034E4002427F1 /* brokenHeart@2x.png in Resources */,
+				6425A44A1480414A0029DD21 /* bannerForApp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
