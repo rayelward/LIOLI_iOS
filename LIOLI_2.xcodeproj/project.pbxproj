@@ -323,9 +323,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64B6A828144B94E2000E540B /* lioli */ = {
+		64B6A828144B94E2000E540B /* LIOLI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64B6A867144B94E3000E540B /* Build configuration list for PBXNativeTarget "lioli" */;
+			buildConfigurationList = 64B6A867144B94E3000E540B /* Build configuration list for PBXNativeTarget "LIOLI" */;
 			buildPhases = (
 				64B6A825144B94E2000E540B /* Sources */,
 				64B6A826144B94E2000E540B /* Frameworks */,
@@ -335,7 +335,7 @@
 			);
 			dependencies = (
 			);
-			name = lioli;
+			name = LIOLI;
 			productName = LIOLI_2;
 			productReference = 64B6A829144B94E2000E540B /* lioli.app */;
 			productType = "com.apple.product-type.application";
@@ -380,7 +380,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64B6A828144B94E2000E540B /* lioli */,
+				64B6A828144B94E2000E540B /* LIOLI */,
 				64B6A854144B94E3000E540B /* LIOLI_2Tests */,
 			);
 		};
@@ -483,7 +483,7 @@
 /* Begin PBXTargetDependency section */
 		64B6A85B144B94E3000E540B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 64B6A828144B94E2000E540B /* lioli */;
+			target = 64B6A828144B94E2000E540B /* LIOLI */;
 			targetProxy = 64B6A85A144B94E3000E540B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -631,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64B6A867144B94E3000E540B /* Build configuration list for PBXNativeTarget "lioli" */ = {
+		64B6A867144B94E3000E540B /* Build configuration list for PBXNativeTarget "LIOLI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64B6A868144B94E3000E540B /* Debug */,
