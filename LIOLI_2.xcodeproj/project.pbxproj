@@ -103,7 +103,7 @@
 		647DAC1B147778D00035DF7D /* lioli-icon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lioli-icon3@2x.png"; sourceTree = "<group>"; };
 		64991208147833D100DABBAD /* RecentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentsViewController.h; sourceTree = "<group>"; };
 		64991209147833D100DABBAD /* RecentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentsViewController.m; sourceTree = "<group>"; };
-		64B6A829144B94E2000E540B /* lioli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lioli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B6A829144B94E2000E540B /* LIOLI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIOLI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B6A82D144B94E3000E540B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64B6A82F144B94E3000E540B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64B6A831144B94E3000E540B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -208,7 +208,7 @@
 		64B6A82A144B94E2000E540B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64B6A829144B94E2000E540B /* lioli.app */,
+				64B6A829144B94E2000E540B /* LIOLI.app */,
 				64B6A855144B94E3000E540B /* LIOLI_2Tests.octest */,
 			);
 			name = Products;
@@ -337,7 +337,7 @@
 			);
 			name = LIOLI;
 			productName = LIOLI_2;
-			productReference = 64B6A829144B94E2000E540B /* lioli.app */;
+			productReference = 64B6A829144B94E2000E540B /* LIOLI.app */;
 			productType = "com.apple.product-type.application";
 		};
 		64B6A854144B94E3000E540B /* LIOLI_2Tests */ = {
@@ -564,11 +564,15 @@
 		64B6A868144B94E3000E540B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LIOLI_2/LIOLI_2-Prefix.pch";
 				INFOPLIST_FILE = "LIOLI_2/LIOLI_2-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -576,11 +580,15 @@
 		64B6A869144B94E3000E540B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LIOLI_2/LIOLI_2-Prefix.pch";
 				INFOPLIST_FILE = "LIOLI_2/LIOLI_2-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
