@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 #import "REURLConnection.h"
 
-@interface RandomViewController : UIViewController
+@interface RandomViewController : UIViewController <ADBannerViewDelegate>{
+    bool bannerIsVisible;
+}
 
 @property (nonatomic, retain) NSMutableData *receivedData;
 @property (nonatomic, retain) NSMutableArray *randomEntries;
@@ -33,4 +36,19 @@
 
 -(void) showEntry;
 -(void) fillArray;
+
+@property (nonatomic, retain) IBOutlet ADBannerView *banner;
+@property (nonatomic, retain) IBOutlet UIView *contentView;
+
+// Layout the Ad Banner and Content View to match the current orientation.
+// The ADBannerView always animates its changes, so generally you should
+// pass YES for animated, but it makes sense to pass NO in certain circumstances
+// such as inside of -viewDidLoad.
+-(void)layoutForCurrentOrientation:(BOOL)animated;
+
+// A simple method that creates an ADBannerView
+// Useful if you need to create the banner view in code
+// such as when designing a universal binary for iPad
+-(void)createADBannerView;
+
 @end
