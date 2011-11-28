@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "REURLConnection.h"
 
 @interface RecentsViewController : UITableViewController
+
+@property (nonatomic, retain) NSMutableData *receivedData;
+@property (nonatomic, retain) NSMutableArray *dataArray;
+
+@property (weak, nonatomic) IBOutlet UITableView *myTableView;
+
+-(void)loadTenEntriesFromPage:(NSNumber *)pageNumber;
+
+
 
 @end
