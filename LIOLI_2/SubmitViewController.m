@@ -151,6 +151,8 @@
     NSString *body = [bodyTextField text];
     NSString *age = [ageTextField text];
     NSString *gender = [genderTextField text];
+    [ageTextField setText:@""];
+    [genderTextField setText:@""];
     
     if ([self validateBody:body age:age gender:gender]){
         //send post
